@@ -1,0 +1,10 @@
+<p>dumb-admin works!</p>
+
+<h1>RENDER HERE</h1>
+<div class="user" *ngFor="let user of userList">
+  <p>{{ user.firstname }}, {{ user.lastname }}</p>
+  <p>
+    aka {{ user.username }}. <br />
+    Email Adress: {{ user.email }}
+  </p>
+</div>
